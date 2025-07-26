@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 import json
 import random
+import agent from Agent, function_tool ,GuardrailFunctionOutput
 
 # Load environment variables
 load_dotenv()
@@ -117,11 +118,11 @@ Use the career data to provide accurate skill information and learning recommend
 Use the career data to provide accurate job role information and market insights."""
     }
 }
-
+@function_tool
 def get_career_info(career_path: str) -> Dict[str, Any]:
     """Tool to get career information"""
     return CAREER_PATHS.get(career_path, {})
-
+@function_tool
 def get_learning_resources(career_path: str) -> List[str]:
     """Tool to get learning resources for a career path"""
     resources = {
