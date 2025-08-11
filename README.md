@@ -2,7 +2,7 @@
 
 An intelligent AI-powered career guidance platform that helps students and professionals explore career paths, develop essential skills, and discover job opportunities. Built with Next.js, FastAPI, and Google Gemini AI, featuring a sophisticated multi-agent system with seamless personality handoffs.
 
-## 🌟 What Your Agent Does
+## 🌟 What Your Agent Does 
 
 ### 🤖 Intelligent Multi-Agent System
 Your Career Mentor Agent operates with three specialized AI personalities that work together to provide comprehensive career guidance:
